@@ -25,8 +25,6 @@ for(let i = 1; i <= 100; i++){
     // aggiungo gli li alla lista
     lista += `<li>${risultato}</li>`
 
-
-
 }
 
     //chiudo la lista
