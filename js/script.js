@@ -2,8 +2,8 @@ console.log('Js ok');
 
 
 //Prendo il documento sul quale scrivere
-const stampa = document.getElementById('results');
-
+const stampa = document.getElementById('results-list');
+const quadrato = document.getElementById('results-squere')
 //Creo la lista
 let lista = '<ul>'
 
@@ -23,12 +23,12 @@ for(let i = 1; i <= 100; i++){
 
 
     // aggiungo gli li alla lista
-    lista += `<li>${risultato}</li>`
+    lista += `<div class="quadrato"><li>${risultato}</li></div>`
 
 }
 
     //chiudo la lista
     lista += '</ul>'
 
-    stampa.innerHTML = lista;
+    stampa.innerHTML = lista; 
 
