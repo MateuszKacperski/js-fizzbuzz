@@ -3,7 +3,7 @@ console.log('Js ok');
 
 //Prendo il documento sul quale scrivere
 const stampa = document.getElementById('results-list');
-const quadrato = document.getElementById('results-squere')
+
 //Creo la lista
 let lista = '<ul>'
 
