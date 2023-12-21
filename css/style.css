@@ -35,17 +35,18 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-transform: capitalize;
 }
 
 
-.Fizz{
+.fizz{
   background-color: #0BD6A1;
 }
 
-.Buzz{
+.buzz{
   background-color: #FFD166;
 }
 
-.FizzBuzz{
+.fizzbuzz{
   background-color: #F0466F;
 }
