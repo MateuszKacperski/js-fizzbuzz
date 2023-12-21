@@ -13,17 +13,18 @@ for(let i = 1; i <= 100; i++){
     if((i % 3 === 0) && (i % 5 === 0)){
         risultato = 'FizzBuzz';
     }else if(i % 3 === 0){
-        risultato = 'Fizz'
+        risultato = 'Fizz';
     
     }else if(i % 5 === 0){
-        risultato = 'Buzz'
+        risultato = 'Buzz';
         
     }
     console.log(risultato);
 
 
     // aggiungo gli li alla lista
-    lista += `<div class="quadrato"><li>${risultato}</li></div>`
+    lista += `<li class="${risultato}">${risultato}</li>`
+
 
 }
 

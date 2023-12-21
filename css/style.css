@@ -26,7 +26,7 @@ ul{
     margin:0 auto;
 }
 
-.quadrato{
+li {
     margin:5px;
     width:100px;
     height: 100px;
@@ -34,4 +34,17 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.Fizz{
+  background-color: #0BD6A1;
+}
+
+.Buzz{
+  background-color: #FFD166;
+}
+
+.FizzBuzz{
+  background-color: #F0466F;
 }
